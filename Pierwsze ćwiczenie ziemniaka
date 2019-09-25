@@ -1,0 +1,17 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+int a(int m, int n);
+int main(){
+int m1,n1;
+while(cin>>m1>>n1){
+cout<<a(m1, n1)<<endl;	
+}		
+return 0;	
+}
+int a(int m, int n){
+    if(m==0) return n+1;
+    else if(m!=0&&n==0) return a(m-1,1);
+    else return a(m-1, a(m, n-1));
+} 
+
