@@ -20,12 +20,12 @@ void master_mind(int N, int P ){
 		for(int j=0;j<P;j++){
 			cin>>guess[j];
 			if(guess[j]==num[j]){
-				H=H+1;
+				H=H+1; //Why not H++
 				continue;
 			}
 			for(int k=0;k<P;k++){
 			    if(guess[j]==num[k]){
-			    	X=X+1;
+			    	X=X+1; //Same Problem
 			    	break;
 			    }
 			}
