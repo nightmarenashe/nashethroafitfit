@@ -7,38 +7,38 @@ int randomchat();
 int main()
 {
 string command, hint[100], reply[100], line, name;
-cout<<"¶Q©m¤j¦W?\n";
+cout<<"è²´å§“å¤§å?\n";
     cin>>name;
-    	if(name=="½²­^¤å"){
+    	if(name=="è”¡è‹±æ–‡"){
     		for(int k=0;k<=1450;k++){
-    		cout<<"ºñ³I"; 
+    		cout<<"ç¶ è›†"; 
     		}
-    		cout<<endl<<"Áú¯» has left the chat.\n";
+    		cout<<endl<<"éŸ“ç²‰ has left the chat.\n";
 		return 0;
 		 } 
-cout<<"¿é¤J«ü¥O¡Ateach:«ü©wÃöÁä¦r¦^ÂÐ¡Achat:ª½±µ²á¤Ñ"<<endl;
+cout<<"è¼¸å…¥æŒ‡ä»¤ï¼Œteach:æŒ‡å®šé—œéµå­—å›žè¦†ï¼Œchat:ç›´æŽ¥èŠå¤©"<<endl;
 	cin>>command;
 	int i=0;
     while(command=="teach"){
-	 cout<<"¿é¤J­n«ü©wªº«e¥y¡A¿é¤Jchatª½±µ¶i¤J²á¤Ñ:";	
+	 cout<<"è¼¸å…¥è¦æŒ‡å®šçš„å‰å¥ï¼Œè¼¸å…¥chatç›´æŽ¥é€²å…¥èŠå¤©:";	
 	    cin>>hint[i];
 	    if(hint[i]!="chat"){
-	 cout<<"¿é¤J­n«ü©wªº«á¥y¡A¦b³oÃä¿é¤Jchat¨S¥Î³á:";
+	 cout<<"è¼¸å…¥è¦æŒ‡å®šçš„å¾Œå¥ï¼Œåœ¨é€™é‚Šè¼¸å…¥chatæ²’ç”¨å–”:";
 	        cin>>reply[i];
     cout<<"--------------------------------\n";     	
 	    }
 	 if(hint[i]=="chat"){
 	 	cout<<"--------------------------------\n";
-	 	cout<<name<<"¡A¶}©l»PÁú¯»²á¤ÑÅo\n";
-	 	cout<<"¿é¤Jback´N¥i¥H¦^±Ð¾Ç¼Ò¦¡\n"; 
-	 	cout<<"¿é¤Jspadaj¥i¥Hª½±µÂ÷¶}\n";
+	 	cout<<name<<"ï¼Œé–‹å§‹èˆ‡éŸ“ç²‰èŠå¤©å›‰\n";
+	 	cout<<"è¼¸å…¥backå°±å¯ä»¥å›žæ•™å­¸æ¨¡å¼\n"; 
+	 	cout<<"è¼¸å…¥spadajå¯ä»¥ç›´æŽ¥é›¢é–‹\n";
 	 	cout<<"--------------------------------\n"; 
 	 	while(1){
     	cout<<name<<":";
     	cin>>line;
     	if(line=="back"){
     		cout<<"--------------------------------\n";
-    		cout<<name<<"¡A±z¤w¦^¨ì±Ð¾Ç¼Ò¦¡\n";
+    		cout<<name<<"ï¼Œæ‚¨å·²å›žåˆ°æ•™å­¸æ¨¡å¼\n";
     		break;
     	}
     	if(line=="spadaj"){
@@ -47,7 +47,7 @@ cout<<"¿é¤J«ü¥O¡Ateach:«ü©wÃöÁä¦r¦^ÂÐ¡Achat:ª½±µ²á¤Ñ"<<endl;
     	}
     	for(int j=0;j<=99;j++){
     		if(line==hint[j]){
-    			cout<<"Áú¯»:"<<reply[j]<<endl;
+    			cout<<"éŸ“ç²‰:"<<reply[j]<<endl;
     			break;
     		}
     		if(j==99){
@@ -61,8 +61,8 @@ cout<<"¿é¤J«ü¥O¡Ateach:«ü©wÃöÁä¦r¦^ÂÐ¡Achat:ª½±µ²á¤Ñ"<<endl;
 	}
 	if(command=="chat"){
 		cout<<"--------------------------------\n";
-		cout<<name<<"¡A¶}©l»PÁú¯»²á¤ÑÅo\n";
-		cout<<"¿é¤Jspadaj ´N¥i¥HÂ÷¶}\n";
+		cout<<name<<"ï¼Œé–‹å§‹èˆ‡éŸ“ç²‰èŠå¤©å›‰\n";
+		cout<<"è¼¸å…¥spadaj å°±å¯ä»¥é›¢é–‹\n";
 	}
 	while(command=="chat"){
 		cout<<name<<":";
@@ -77,41 +77,41 @@ cout<<"¿é¤J«ü¥O¡Ateach:«ü©wÃöÁä¦r¦^ÂÐ¡Achat:ª½±µ²á¤Ñ"<<endl;
 	return 0;
 } 
 int randomchat(){
-	cout<<"Áú¯»:"; 
+	cout<<"éŸ“ç²‰:"; 
 	int a;
 	      srand((unsigned)time(NULL));
 	    	for(int p=1;p<=1;p++){
 	    		a=rand()%200+1;
 	    		if(a%sent==0||a%sent>=10){
-	    			cout<<"³¬¼L 1450";
+	    			cout<<"é–‰å˜´ 1450";
 	    		}
 	    		if(a%sent==1){
-	    			cout<<"ªÎ´þ´þ¤j¥À½Þ";
+	    			cout<<"è‚¥æ»‹æ»‹å¤§æ¯è±¬";
 	    		}
 	    		if(a%sent==2){
-	    			cout<<"³á®ð®ð®ð®ð®ð"; 
+	    			cout<<"å–”æ°£æ°£æ°£æ°£æ°£"; 
 	    		} 
 	    		if(a%sent==3){
-	    			cout<<"°ª¶¯µo¤j°]";
+	    			cout<<"é«˜é›„ç™¼å¤§è²¡";
 	    		} 
 	    		if(a%sent==4){
-	    			cout<<"§Ú·R¤¤¤Ñ";
+	    			cout<<"æˆ‘æ„›ä¸­å¤©";
 	    		} 
 	    		if(a%sent==5){
-	    			cout<<"ºñ³I";
+	    			cout<<"ç¶ è›†";
 	    		} 
 	    		if(a%sent==6){
-	    			cout<<"¤Ï¥x¿W";
+	    			cout<<"åå°ç¨";
 	    		} 
 	    		if(a%sent==7){
-	    			cout<<"Æp¦V¼Ä¤Hªº¤ßÅ¦";
+	    			cout<<"é‘½å‘æ•µäººçš„å¿ƒè‡Ÿ";
 	    		} 
 	    		if(a%sent==8){
-	    			cout<<"ÁúÁ`¬O½±¤½¦b¥@";
+	    			cout<<"éŸ“ç¸½æ˜¯è”£å…¬åœ¨ä¸–";
 	    		} 
 	    		if(a%sent==9){
-	    			cout<<"·R±¡²£·~Ãì¸U·³";
+	    			cout<<"æ„›æƒ…ç”¢æ¥­éˆè¬æ­²";
 	    		} 
-	    		} 
+	    		}  
 	    	cout<<endl;
 }
